@@ -4,32 +4,32 @@ import { motion } from 'framer-motion';
 const projects = [
   {
     title: 'Flower Shop Website',
-    description: 'Developed a responsive flower shop website with a modern UI and product showcase.',
-    tech: ['HTML', 'CSS', 'Font Awesome'],
+    description: 'Built a responsive React + TypeScript storefront with performant image loading and accessible product browsing.',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Vercel'],
     github: '#',
     demo: 'https://idyllic-lily-745c10.netlify.app/',
     color: '#d4476d',
   },
   {
     title: 'Wedding Dress Website',
-    description: 'Built a React-based e-commerce frontend with product pages and add-to-cart functionality.',
-    tech: ['React', 'CSS', 'E-commerce'],
+    description: 'E-commerce frontend focusing on UX, cart flows, and animation-driven interactions using React and optimized CSS.',
+    tech: ['React', 'TypeScript', 'CSS', 'Netlify'],
     github: '#',
     demo: 'https://wedding-dress-livid.vercel.app/',
     color: '#e8d5c4',
   },
   {
     title: 'Healthcare Services Manager',
-    description: 'Created a service management app with add, update, and delete features using React hooks and form validation.',
-    tech: ['React', 'Hooks', 'Form Validation'],
+    description: 'Interactive dashboard and form-heavy UI built with React hooks, optimized for accessibility and validation UX.',
+    tech: ['React', 'Tailwind CSS', 'Accessibility'],
     github: '#',
     demo: 'https://health-service-manager.vercel.app/',
     color: '#2ecc71',
   },
   {
     title: 'Todo Fullstack App',
-    description: 'Developed a full-stack To-Do app with CRUD operations, task completion, and pagination using REST APIs and MongoDB.',
-    tech: ['React', 'Node.js', 'Express', 'MongoDB'],
+    description: 'Front-end focused To-Do application showcasing component composition, state management, and client-side routing.',
+    tech: ['React', 'Context API', 'TypeScript'],
     github: '#',
     demo: '#',
     color: '#3498db',
@@ -155,7 +155,7 @@ const Projects: React.FC = () => {
           className="text-center mt-12"
         >
           <a 
-            href="https://github.com" 
+            href="https://github.com/Nishayadav1" 
             target="_blank" 
             rel="noopener noreferrer"
             className="btn-secondary inline-flex items-center gap-2 px-8 py-3 rounded-xl font-semibold"

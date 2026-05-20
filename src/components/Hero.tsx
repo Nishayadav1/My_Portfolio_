@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full badge-gradient text-sm font-medium self-start"
           >
-            <span className="w-2 h-2 rounded-full bg-gray-600 animate-pulse"></span>
+            <span className="w-2 h-2 rounded-full bg-gray-600 animate-pulse"></span>{" "}
             Available for work
           </motion.div>
 
@@ -37,7 +37,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.4 }}
             className="text-xl md:text-2xl font-semibold text-gray-700 mb-2"
           >
-            Full Stack Developer
+            Frontend Developer
           </motion.p>
 
           <motion.p 
@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.5 }}
             className="text-base md:text-lg text-gray-600 leading-relaxed max-w-lg mb-4"
           >
-            Full Stack Developer (MERN) with hands-on experience in building scalable web applications using <span className="font-medium">React</span>, <span className="font-medium">Next.js</span>, <span className="font-medium">Node.js</span>, and <span className="font-medium">MongoDB</span>. Skilled in developing REST APIs, authentication systems, and responsive UIs. Looking to contribute to real-world product development and grow as a backend-strong full stack engineer.
+            Frontend developer focused on building accessible, performant, and responsive user interfaces with <span className="font-medium">React</span>, <span className="font-medium">TypeScript</span>, and <span className="font-medium">Tailwind CSS</span>. I create component-driven UIs, design systems, and fine-tuned interactions that prioritize performance, accessibility, and a delightful user experience.
           </motion.p>
 
           {/* Buttons Row */}
@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
               <span>Let's Talk</span>
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </a>
-            <a href="/resume.pdf" download className="btn-secondary px-8 py-3 rounded-xl font-semibold flex items-center gap-2">
+            <a href="https://drive.google.com/uc?export=download&id=1rD5Gu3-Z3MZBWPVWdRhB9Ba1d-KXMxX2" target="_blank" rel="noopener noreferrer" className="btn-secondary px-8 py-3 rounded-xl font-semibold flex items-center gap-2">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
               <span>Resume</span>
             </a>
@@ -75,7 +75,7 @@ const Hero: React.FC = () => {
           >
             <div className="glass-card px-6 py-4 rounded-2xl flex items-center gap-4 min-w-[150px]">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center">
-                <span className="text-white font-bold text-lg">2+</span>
+                  <span className="text-white font-bold text-lg">2+</span>
               </div>
               <div>
                 <p className="text-sm text-gray-500">Years</p>
@@ -84,7 +84,7 @@ const Hero: React.FC = () => {
             </div>
             <div className="glass-card px-6 py-4 rounded-2xl flex items-center gap-4 min-w-[150px]">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-gray-500 to-gray-700 flex items-center justify-center">
-                <span className="text-white font-bold text-lg">10+</span>
+                  <span className="text-white font-bold text-lg">12+</span>
               </div>
               <div>
                 <p className="text-sm text-gray-500">Projects</p>
